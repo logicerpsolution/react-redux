@@ -1,0 +1,774 @@
+/* Welcome to Compass. Use this file to write IE specific override styles.
+ * Import this file using the following HTML or equivalent:
+ * <!--[if IE]>
+ *   <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+ * <![endif]--> */
+@import url(ie.css);
+@import url(print.css);
+@import url(screen.css);
+@import url(bootstrap.min.css);
+@import url(font-awesome.min.css);
+@import url(base.css);
+@import url(mixin.css);
+@import url(animate.min.css);
+/* line 18, ../sass/style.scss */
+.header-navigation {
+  border-bottom: 1px solid #d3dde6;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* line 19, ../sass/style.scss */
+.navbar-logo {
+  display: inline-block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  float: left;
+  padding-right: 40px;
+}
+
+/* line 20, ../sass/style.scss */
+.navbar-logo a {
+  display: block;
+}
+
+/* line 21, ../sass/style.scss */
+.navbar-logo a img {
+  width: 55px;
+}
+
+/* line 22, ../sass/style.scss */
+.custom-nav {
+  float: left;
+}
+
+/* line 23, ../sass/style.scss */
+.custom-nav .navbar-default {
+  background: rgba(255, 255, 255, 0);
+  border: 0 none;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+}
+
+/* line 24, ../sass/style.scss */
+.custom-nav .navbar-default .navbar-collapse {
+  border: 0 none;
+  padding: 0px;
+}
+
+/* line 25, ../sass/style.scss */
+.custom-nav .navbar-default .navbar-nav > li > a {
+  color: #0e1e42;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 45px;
+}
+
+/* line 26, ../sass/style.scss */
+.custom-nav .navbar-default .navbar-nav > li > a:hover, .custom-nav .navbar-default .navbar-nav > li.active a {
+  color: #536ea5;
+  box-shadow: 0px 2px 0px 0px #6278aa;
+  background: transparent;
+}
+
+/* line 27, ../sass/style.scss */
+.right-menu {
+  float: right;
+}
+
+/* line 28, ../sass/style.scss */
+.login-user-wrap {
+  float: right;
+  padding-top: 15px;
+}
+
+/* line 30, ../sass/style.scss */
+.login-user-wrap ul li {
+  float: left;
+  border-right: 1px solid #d3dde6;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* line 31, ../sass/style.scss */
+.login-user-wrap ul li:last-child {
+  border: 0 none;
+  padding-right: 0px;
+}
+
+/* line 32, ../sass/style.scss */
+.login-user-wrap ul li:first-child {
+  padding-left: 0px;
+}
+
+/* line 33, ../sass/style.scss */
+.login-user-wrap ul li a {
+  display: block;
+}
+
+/* line 34, ../sass/style.scss */
+.login-user a {
+  display: block;
+}
+
+/* line 35, ../sass/style.scss */
+.login-user a img, .img-setting {
+  width: 45px;
+  border: 1px solid #d3dde6;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px;
+}
+
+/* line 36, ../sass/style.scss */
+.login-user-settings .dropdown-toggle {
+  background: transparent;
+  border: 0 none;
+  padding: 0px;
+}
+
+/* line 37, ../sass/style.scss */
+.login-user-settings .img-setting {
+  padding: 4px;
+  float: left;
+}
+
+/* line 38, ../sass/style.scss */
+.login-user-settings .caret-icon {
+  padding-top: 7px;
+  width: 20px;
+  margin-left: 5px;
+}
+
+/* line 39, ../sass/style.scss */
+.login-user-settings .btn-group.open .dropdown-toggle {
+  box-shadow: inset 0 3px 5px transparent;
+}
+
+/* line 40, ../sass/style.scss */
+.login-user-settings .open > .dropdown-toggle:hover, .login-user-settings .open > .dropdown-toggle:focus {
+  background: transparent;
+  border: 0 none;
+  padding: 0;
+}
+
+/* line 41, ../sass/style.scss */
+.login-user-settings .dropdown-menu {
+  right: 0;
+  left: unset;
+  margin: 0;
+  top: 62px;
+  background: #0e1e42;
+  padding: 0px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  border-radius: 0;
+  width: 220px;
+}
+
+/* line 42, ../sass/style.scss */
+.login-user-settings .dropdown-menu li {
+  float: none;
+  border: none;
+  padding: 0px;
+}
+
+/* line 43, ../sass/style.scss */
+.login-user-settings .dropdown-menu li a {
+  border: 0 none;
+  color: #cccccc;
+  font-size: 12px;
+  line-height: 19px;
+  font-weight: 400;
+  padding: 12px 10px;
+  border-bottom: 1px solid #23303b;
+}
+
+/* line 45, ../sass/style.scss */
+.login-user-settings .dropdown-menu li a span {
+  color: #ffffff;
+  text-align: center;
+  width: 20px;
+  font-size: 14px;
+  margin-right: 10px;
+  vertical-align: baseline;
+  -webkit-transition: color 200ms ease;
+  -moz-transition: color 200ms ease;
+  -ms-transition: color 200ms ease;
+  -o-transition: color 200ms ease;
+  transition: color 200ms ease;
+}
+
+/* line 47, ../sass/style.scss */
+.login-user-settings .dropdown-menu li a:hover {
+  background: transparent;
+  color: #ffffff;
+  border-left: 1px solid #536ea5;
+}
+
+/* line 48, ../sass/style.scss */
+.login-user-settings .dropdown-menu:after {
+  right: 20px;
+  left: auto;
+}
+
+/* line 49, ../sass/style.scss */
+.login-user-settings .dropdown-menu:after {
+  bottom: 100%;
+  right: 46px;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-color: transparent;
+  border-bottom-color: #0e1e42;
+  border-width: 7px;
+  margin-left: -5px;
+}
+
+/* line 51, ../sass/style.scss */
+.xn-icon-button {
+  float: right;
+  position: relative;
+}
+
+/* line 52, ../sass/style.scss */
+.xn-icon-button a {
+  padding: 10px 13px;
+  color: #6d87a8;
+  font-size: 20px;
+  text-align: center;
+  display: block;
+  line-height: 57px;
+}
+
+/* line 53, ../sass/style.scss */
+.xn-icon-button .caret-icon {
+  padding-top: 13px;
+  float: right;
+  width: 20px;
+}
+
+/* line 54, ../sass/style.scss */
+.xn-icon-button .panel.xn-drop-left {
+  left: auto;
+  right: 0px;
+}
+
+/* line 55, ../sass/style.scss */
+.xn-icon-button .panel {
+  display: none;
+  position: absolute;
+  left: 0px;
+  top: 77px;
+  width: 400px;
+  z-index: 3;
+  border-top-width: 1px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  border-radius: 0;
+}
+
+/* line 56, ../sass/style.scss */
+.xn-icon-button.active > .panel {
+  display: block;
+}
+
+/* line 57, ../sass/style.scss */
+.xn-icon-button > .panel .panel-heading .panel-title {
+  font-size: 14px;
+  float: left;
+}
+
+/* line 58, ../sass/style.scss */
+.xn-icon-button > .panel .panel-footer {
+  background: #F5F5F5;
+  border: 0px;
+}
+
+/* line 59, ../sass/style.scss */
+.xn-icon-button > .panel .panel-footer a {
+  color: #6d87a8;
+  font-size: 12px;
+  line-height: 20px;
+  padding: 3px 10px;
+}
+
+/* line 60, ../sass/style.scss */
+.xn-icon-button .panel .panel-body.list-group {
+  padding: 0px;
+}
+
+/* line 61, ../sass/style.scss */
+.xn-icon-button .list-group .list-group-item .fa {
+  margin-right: 10px;
+  border: 1px solid #818da7;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  border-radius: 100px;
+  color: #818da7;
+  font-size: 14px;
+  height: 34px;
+  padding: 9px;
+  text-align: center;
+  vertical-align: middle;
+  width: 34px;
+}
+
+/* line 62, ../sass/style.scss */
+.xn-icon-button .panel .panel-body.list-group .media {
+  line-height: 18px;
+  font-size: 12px;
+  text-align: left;
+}
+
+/* line 63, ../sass/style.scss */
+.xn-icon-button .panel .panel-body.list-group .media h5 {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+/* line 64, ../sass/style.scss */
+.xn-icon-button .panel.panel-default:after {
+  border-bottom-color: #ddd;
+}
+
+/* line 65, ../sass/style.scss */
+.xn-icon-button .panel.xn-drop-left:after {
+  right: 20px;
+  left: auto;
+}
+
+/* line 66, ../sass/style.scss */
+.xn-icon-button .panel:after {
+  top: -11px;
+  left: 20px;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-color: transparent;
+  border-bottom-color: #E5E5E5;
+  border-width: 5px;
+  margin-left: -5px;
+}
+
+/* line 68, ../sass/style.scss */
+.dashboard-content {
+  padding: 15px;
+}
+
+/* line 69, ../sass/style.scss */
+.dashboard-content h1 {
+  color: #0d2443;
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+/* line 70, ../sass/style.scss */
+.right-buttom-list {
+  float: right;
+  margin-top: 20px;
+}
+
+/* line 71, ../sass/style.scss */
+.panel-widget {
+  margin: 20px 0 10px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  border-radius: 0;
+  box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.1);
+  border: 0 none;
+}
+
+/* line 72, ../sass/style.scss */
+.panel-widget .panel-heading {
+  background: transparent;
+  border-color: #d3dde6;
+  padding: 15px 15px 15px 20px;
+}
+
+/* line 73, ../sass/style.scss */
+.panel-widget .panel-heading .panel-title-box {
+  float: left;
+}
+
+/* line 74, ../sass/style.scss */
+.panel-widget .panel-title-box h3 {
+  color: #0d2443;
+  font-size: 18px;
+  margin: 0;
+  font-weight: normal;
+}
+
+/* line 75, ../sass/style.scss */
+.panel-controls {
+  float: right;
+}
+
+/* line 76, ../sass/style.scss */
+.daily-control {
+  float: right;
+}
+
+/* line 77, ../sass/style.scss */
+.daily-control select {
+  border: 0 none;
+  padding: 5px 35px 5px 10px;
+  background: #ffffff url(../assets/images/Arrowdown-icon-selected.svg) no-repeat;
+  background-position: 94.5% center;
+  -webkit-appearance: unset;
+  -moz-appearance: unset;
+}
+
+/* line 78, ../sass/style.scss */
+.extra-settings {
+  float: right;
+}
+
+/* line 79, ../sass/style.scss */
+.extra-settings .btn-default {
+  background: transparent;
+  border: 0 none;
+  padding: 0px;
+}
+
+/* line 80, ../sass/style.scss */
+.extra-settings .btn-default:active:hover, .extra-settings .btn-default.active:hover, .extra-settings .open > .dropdown-toggle.btn-default:hover, .extra-settings .open > .dropdown-toggle.btn-default:focus {
+  background: transparent;
+  border: 0 none;
+  box-shadow: inset 0 3px 5px transparent;
+}
+
+/* line 81, ../sass/style.scss */
+.extra-settings .dropdown-menu {
+  left: unset;
+  right: 0;
+  border-bottom: 1px solid #d3dde6;
+  margin: 0;
+  padding: 0px;
+}
+
+/* line 82, ../sass/style.scss */
+.extra-settings .dropdown-menu li a {
+  color: #6d87a8;
+  padding: 10px 15px;
+}
+
+/* line 83, ../sass/style.scss */
+.extra-settings .dropdown-menu li a:hover {
+  background: #6d80ad;
+  color: #ffffff;
+}
+
+/* line 84, ../sass/style.scss */
+.list-group-contacts table {
+  width: 100%;
+}
+
+/* line 85, ../sass/style.scss */
+.list-group-contacts table td {
+  padding: 4px 0px 5px 5px;
+}
+
+/* line 86, ../sass/style.scss */
+.list-group-contacts table td h5 {
+  font-weight: normal;
+}
+
+/* line 87, ../sass/style.scss */
+.list-group-contacts table td:first-child {
+  width: 55px;
+}
+
+/* line 88, ../sass/style.scss */
+.list-group-contacts table td:nth-child(2) {
+  width: 40%;
+}
+
+/* line 89, ../sass/style.scss */
+.list-group-contacts table td:last-child {
+  width: 10%;
+  text-align: right;
+}
+
+/* line 90, ../sass/style.scss */
+.list-group-contacts .progress {
+  margin: 0;
+  height: 15px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  border-radius: 0;
+  background-color: #dee7ee;
+}
+
+/* line 91, ../sass/style.scss */
+.list-group-contacts .progress span {
+  visibility: hidden;
+}
+
+/* line 92, ../sass/style.scss */
+.panel-widget .panel-footer {
+  border-top: 1px solid #d3dde6;
+  background: transparent;
+  padding: 5px 15px;
+}
+
+/* line 93, ../sass/style.scss */
+.panel-widget .panel-footer img {
+  width: 70px;
+}
+
+/* line 94, ../sass/style.scss */
+.panel-widget .panel-footer a {
+  color: #668192;
+  font-size: 16px;
+}
+
+/* line 95, ../sass/style.scss */
+.mobile-user-list {
+  padding: 15px 0;
+}
+
+/* line 96, ../sass/style.scss */
+.mobile-user-list ul {
+  margin: 0;
+  padding: 0px;
+}
+
+/* line 97, ../sass/style.scss */
+.mobile-user-list ul li {
+  width: 50%;
+  float: left;
+}
+
+/* line 98, ../sass/style.scss */
+.mobile-user-list ul li .color-circle {
+  width: 15px;
+  height: 15px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  border-radius: 100px;
+  margin-top: 2px;
+}
+
+/* line 99, ../sass/style.scss */
+.mobile-user-list ul li h4 {
+  margin-top: 5px;
+}
+
+/* line 100, ../sass/style.scss */
+.mobile-user-list .media {
+  margin-bottom: 10px;
+}
+
+/* line 101, ../sass/style.scss */
+.mobile-user-list small {
+  color: #0d2443;
+}
+
+/* line 102, ../sass/style.scss */
+.color-rect {
+  width: 15px;
+  height: 15px;
+}
+
+/* line 103, ../sass/style.scss */
+.panel-footer ul {
+  margin: 0;
+  padding: 0px;
+}
+
+/* line 104, ../sass/style.scss */
+.panel-footer ul li {
+  float: left;
+  padding: 5px 30px 5px 0;
+}
+
+/* line 105, ../sass/style.scss */
+.panel-footer ul li p, .panel-footer ul li span {
+  display: inline-block;
+  margin: 0;
+}
+
+/* line 106, ../sass/style.scss */
+.display-mobile {
+  display: none !important;
+}
+
+/* line 107, ../sass/style.scss */
+#Container {
+  height: 240px;
+}
+
+/*#Container svg{margin-left:8%}*/
+@media only screen and (max-width: 1024px) {
+  /* line 111, ../sass/style.scss */
+  .custom-nav .navbar-default .navbar-nav > li > a {
+    padding: 15px 8px;
+    font-size: 14px;
+  }
+
+  /* line 112, ../sass/style.scss */
+  .navbar-logo {
+    padding-right: 15px;
+    padding-top: 20px;
+  }
+
+  /* line 113, ../sass/style.scss */
+  .login-user-wrap ul li {
+    padding: 0px 10px;
+  }
+
+  /* line 114, ../sass/style.scss */
+  .xn-icon-button a {
+    padding: 10px 8px;
+    font-size: 16px;
+  }
+
+  /* line 115, ../sass/style.scss */
+  .login-user a img, .img-setting {
+    width: 35px;
+  }
+
+  /* line 116, ../sass/style.scss */
+  .login-user-wrap ul li:first-child {
+    padding-left: 0px;
+  }
+
+  /* line 117, ../sass/style.scss */
+  .login-user-settings .caret-icon {
+    padding-top: 3px;
+  }
+
+  /* line 118, ../sass/style.scss */
+  .navbar-logo a img {
+    width: 40px;
+  }
+
+  /* line 119, ../sass/style.scss */
+  .login-user-wrap {
+    padding-top: 22px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  /* line 123, ../sass/style.scss */
+  .navbar-toggle {
+    margin-top: 20px;
+    margin-right: 0px;
+  }
+
+  /* line 124, ../sass/style.scss */
+  .right-buttom-list {
+    float: none;
+    margin-top: 5px;
+  }
+
+  /* line 125, ../sass/style.scss */
+  .custom-nav {
+    float: right;
+  }
+
+  /* line 126, ../sass/style.scss */
+  .custom-nav .navbar-default .navbar-collapse {
+    position: absolute;
+    right: -5px;
+    background: #ffffff;
+    border: 1px solid #d3dde6;
+    top: 70px;
+    z-index: 9;
+    min-width: 300px;
+    box-shadow: 0 2px 5px #d3dde6;
+    overflow: visible;
+  }
+
+  /* line 127, ../sass/style.scss */
+  .custom-nav .navbar-nav {
+    margin: 0;
+  }
+
+  /* line 128, ../sass/style.scss */
+  .custom-nav .navbar-default .navbar-nav > li > a {
+    line-height: 25px;
+  }
+
+  /* line 129, ../sass/style.scss */
+  .custom-nav .navbar-default .navbar-collapse:before {
+    bottom: 100%;
+    right: 15px;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: transparent;
+    border-bottom-color: #d3dde6;
+    border-width: 7px;
+    margin-left: -5px;
+  }
+
+  /* line 130, ../sass/style.scss */
+  #Container {
+    height: auto;
+  }
+}
+@media only screen and (max-width: 400px) {
+  /* line 134, ../sass/style.scss */
+  #Container svg {
+    margin-left: 12%;
+  }
+}
+@media only screen and (max-width: 400px) {
+  /* line 138, ../sass/style.scss */
+  .dashboard-content {
+    padding: 15px 0;
+  }
+
+  /* line 139, ../sass/style.scss */
+  .xn-icon-button {
+    display: none;
+  }
+
+  /* line 140, ../sass/style.scss */
+  .display-mobile {
+    display: block !important;
+    text-align: center;
+    border-top: 1px solid #d3dde6;
+  }
+
+  /* line 141, ../sass/style.scss */
+  .display-mobile ul {
+    margin: 0;
+    padding: 0px;
+    display: inline-block;
+  }
+
+  /* line 142, ../sass/style.scss */
+  .display-mobile ul li {
+    float: left;
+  }
+
+  /* line 143, ../sass/style.scss */
+  .display-mobile ul li a {
+    color: #6d87a8;
+    display: block;
+    padding: 10px 20px;
+    font-size: 22px;
+  }
+}

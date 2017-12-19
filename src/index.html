@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>React Example </title>
+    <link href="src/styles/style.css" rel="stylesheet" />
+    <link href="src/styles/animate.min.css" rel="stylesheet" />
+    <link href="src/styles/base.css" rel="stylesheet" />
+    <link href="src/styles/font-awesome.min.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <style>
+        a {
+            cursor: pointer;
+        }
+
+        .help-block {
+            font-size: 12px;
+        }
+    </style>
+    <script type="text/babel">
+        $(document).ready(function(){
+        var html_click_avail = true;
+        $(".xn-icon-button").on("click", function(){
+        $(this).toggleClass('active');
+        });
+
+        $(".xn-icon-button .panel").on("click",function(e){
+        e.stopPropagation();
+        });
+        });
+    </script>
+</head>
+<body>
+    <div id="app"></div>
+
+</body>
+</html>

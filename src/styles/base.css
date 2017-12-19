@@ -1,0 +1,172 @@
+/* line 4, ../sass/base.scss */
+body {
+  font-size: 14px;
+  color: #616161;
+  background: #ffffff;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* line 5, ../sass/base.scss */
+* {
+  box-size: border-box !important;
+}
+
+/* line 6, ../sass/base.scss */
+img {
+  max-width: 100%;
+  height: auto;
+  width: auto\9;
+  /* ie8 */
+}
+
+/* line 7, ../sass/base.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 8, ../sass/base.scss */
+img, fieldset {
+  border: 0;
+}
+
+/* line 10, ../sass/base.scss */
+.clear {
+  clear: both;
+}
+
+/* line 11, ../sass/base.scss */
+.clearfix {
+  *zoom: 1;
+}
+
+/* line 11, ../sass/base.scss */
+.clearfix:before, .clearfix:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+/* line 12, ../sass/base.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/* line 13, ../sass/base.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 14, ../sass/base.scss */
+a, img, button, select {
+  outline: none  !important;
+}
+
+/* line 15, ../sass/base.scss */
+a:active, img, button, select {
+  outline: none !important;
+}
+
+/* line 16, ../sass/base.scss */
+body a:focus, a:hover {
+  text-decoration: none;
+}
+
+/* line 17, ../sass/base.scss */
+body a {
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+  text-decoration: none;
+}
+
+/* line 18, ../sass/base.scss */
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: 'Open Sans', sans-serif;
+  color: #0d2443;
+}
+
+/* line 19, ../sass/base.scss */
+.mt20 {
+  margin-top: 20px;
+}
+
+/* line 20, ../sass/base.scss */
+.p0 {
+  padding: 0;
+}
+
+/* line 21, ../sass/base.scss */
+.btn-primary {
+  color: #fff;
+  background-color: #657fac;
+  border-color: #617aad;
+}
+
+/* line 22, ../sass/base.scss */
+.btn-primary:focus, .btn-primary.focus, .btn-primary:hover {
+  color: #fff;
+  background-color: #2b405b;
+  border-color: #253954;
+}
+
+/* line 23, ../sass/base.scss */
+.btn-primary i {
+  margin-right: 8px;
+}
+
+/* line 25, ../sass/base.scss */
+.btn-default {
+  color: #0d2443;
+  background-color: #fff;
+  border-color: #d3dde6;
+}
+
+/* line 26, ../sass/base.scss */
+.btn-default:focus, .btn-default.focus, .btn-default:hover {
+  color: #fff;
+  background-color: #2b405b;
+  border-color: #253954;
+}
+
+/* line 27, ../sass/base.scss */
+.btn-default i {
+  margin-right: 8px;
+}
+
+/* line 29, ../sass/base.scss */
+.bg-yellow {
+  background: #ffdf10;
+}
+
+/* line 30, ../sass/base.scss */
+.bg-sky-blue {
+  background: #4ad5f6;
+}
+
+/* line 31, ../sass/base.scss */
+.bg-red {
+  background: #f15264;
+}
+
+/* line 32, ../sass/base.scss */
+.bg-purple {
+  background: #626dc7;
+}
+
+/* line 33, ../sass/base.scss */
+.bg-green {
+  background: #4fc69c;
+}
+
+/* line 34, ../sass/base.scss */
+.bg-light-green {
+  background: #62c572;
+}
+
+/* line 35, ../sass/base.scss */
+.bg-dark-green {
+  background: #28864a;
+}
